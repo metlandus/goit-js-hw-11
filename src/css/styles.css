@@ -1,0 +1,39 @@
+/* Styling the form */
+#search-form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#search {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+}
+
+.search-btn {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: #45a049;
+}
+
+/* Styling the gallery */
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    margin: 20px;
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
